@@ -10,7 +10,7 @@ meanings = {
   "noodles":"mean",
   "nox1":"no",
   "nox2":"don't know",
-  "nox3":"know",
+  // "nox3":"know",
   "worship":"bye",
   "crab":"hi",
   "shrimp":"ha",
