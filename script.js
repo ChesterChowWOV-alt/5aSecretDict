@@ -1,9 +1,21 @@
+/*
+Worship = 拜=bye
+Crab=蟹=hi
+Shrimp=蝦=ha
+Worshipx2=拜拜=bye bye
+Shrimpx2=蝦蝦=Haha
+*/
 meanings = {
   "niocez":"noice/nice",
   "noodles":"mean",
   "nox1":"no",
   "nox2":"don't know",
-  "nox3":"know"
+  "nox3":"know",
+  "worship":"bye",
+  "crab":"hi",
+  "shrimp":"ha",
+  "worshipx2":"bye bye",
+  "shrimpx2":"haha"
 }
 
 div = document.getElementById("main")
