@@ -1,0 +1,14 @@
+body {
+  font-family: Avenir;
+  padding-left: 10px;
+}
+
+#contents {
+  font-size: 25px;
+}
+
+fieldset {
+  border-radius: 10px;
+  width: 90%;
+  height: 50%;
+}
