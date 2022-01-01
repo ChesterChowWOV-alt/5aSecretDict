@@ -36,7 +36,7 @@ for (let elem of div.children) {
     var contents = document.getElementById("contents")
     contents.innerText = elem.innerText + ": " + val[0]
     if (!(val[1] == null)) {
-      contents.innerHTML += `<br><br><details><summary>Details</summary>${val[1]}</details>`
+      contents.innerHTML += `<br><hr><details><summary>Details</summary>${val[1]}</details>`
     }
   })
 }
