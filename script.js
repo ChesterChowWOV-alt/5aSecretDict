@@ -16,7 +16,8 @@ meanings = {
   "prnuh":["ha", "prnuh => prawn => 蝦 => ha"],
   "wershix2":["bye bye", null],
   "prnuhx2":["haha", null],
-  "cenz":["sense", "engwish"]
+  "cenz":["sense", "engwish"],
+  "keti":["get it", "keti => geti => get it"]
 }
 
 div = document.getElementById("main")
