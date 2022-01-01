@@ -7,15 +7,16 @@ Shrimpx2=蝦蝦=Haha
 */
 meanings = {
   "niocez":["noice/nice", null],
-  "noodles":["mean", "noodles => 麵 => mean"],
+  "nodlez":["mean", "nodlez => noodles => 麵 => mean"],
   "nox1":["no", null],
   "nox2":["don't know", "nox2 => no no => don't no => don't know"],
   // "nox3":"know",
-  "worship":["bye", "worship => 拜 => bye"],
-  "crab":["hi", "crab => 蟹 => hi"],
-  "shrimp":["ha", "shrimp => 蝦 => ha"],
-  "worshipx2":["bye bye", null],
-  "shrimpx2":["haha", null]
+  "wershi":["bye", "worship => 拜 => bye"],
+  "krbuh":["hi", "Krbuh-> Krabuh => Krab => crab => 蟹 => hi"],
+  "prnuh":["ha", "prnuh => prawn => 蝦 => ha"],
+  "wershix2":["bye bye", null],
+  "prnuhx2":["haha", null],
+  "cenz":["sense", "engwish"]
 }
 
 div = document.getElementById("main")
