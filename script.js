@@ -6,16 +6,16 @@ Worshipx2=拜拜=bye bye
 Shrimpx2=蝦蝦=Haha
 */
 meanings = {
-  "niocez":"noice/nice",
-  "noodles":"mean",
-  "nox1":"no",
-  "nox2":"don't know",
+  "niocez":["noice/nice", null],
+  "noodles":["mean", "noodles => 麵 => mean"],
+  "nox1":["no", null],
+  "nox2":["don't know", "nox2 => no no => don't no => don't know"],
   // "nox3":"know",
-  "worship":"bye",
-  "crab":"hi",
-  "shrimp":"ha",
-  "worshipx2":"bye bye",
-  "shrimpx2":"haha"
+  "worship":["bye", "worship => 拜 => bye"],
+  "crab":["hi", "crab => 蟹 => hi"],
+  "shrimp":["ha", "shrimp => 蝦 => ha"],
+  "worshipx2":["bye bye", null],
+  "shrimpx2":["haha", null]
 }
 
 div = document.getElementById("main")
@@ -33,7 +33,11 @@ for (let elem of div.children) {
   elem.addEventListener("click", () => {
     var val = Object.values(meanings)[elem.id]
     // console.debug(val)
-    document.getElementById("contents").innerText = elem.innerText + ": " + val
+    var contents = document.getElementById("contents")
+    contents.innerText = elem.innerText + ": " + val[0]
+    if (!(val[1] == null)) {
+      contents.innerText += `<br><br><details><summary>Details</summary>${val[1]}</details>`
+    }
   })
 }
 // console.log(div.innerHTML)
