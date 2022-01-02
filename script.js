@@ -11,7 +11,7 @@ meanings = {
   "nox1":["no", null],
   "nox2":["don't know", "nox2 => no no => don't no => don't know"],
   // "nox3":"know",
-  "wershi":["bye", "worship => 拜 => bye"],
+  "wershi":["bye", "wershi => worshi => worship => 拜 => bye"],
   "krbuh":["hi", "Krbuh-> Krabuh => Krab => crab => 蟹 => hi"],
   "prnuh":["ha", "prnuh => prawn => 蝦 => ha"],
   "wershix2":["bye bye", null],
