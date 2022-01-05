@@ -19,6 +19,7 @@ meanings = {
   "cenz":["sense", "engwish"],
   "keti":["get it", "keti => geti => get it"],
   "kreem":["go", "kreem => cream => 糕 => go"],
+  "wonx2": ["ok", "wonx2 -> onex2 =-> one one -> eleven -> (eleventh alphabet) -> k -> ok"]
 }
 
 div = document.getElementById("main")
