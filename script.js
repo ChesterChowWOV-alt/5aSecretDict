@@ -21,6 +21,8 @@ meanings = {
   "kreem":["go", "kreem => cream => 糕 => go"],
   "wonx2": ["ok", "wonx2 -> onex2 -> one one -> eleven -> (eleventh alphabet) -> k -> ok"],
   "twentify": ["why", "twentify -> twenty-five -> (twenty-fifth alphabet) -> y -> why"],
+  "atha": ["other", "basically engwish"],
+  "enki": ["angry", "basically engwish"],
 }
 
 div = document.getElementById("main")
