@@ -48,3 +48,18 @@ for (let elem of div.children) {
   })
 }
 // console.log(div.innerHTML)
+document.getElementById("search").addEventListener("click", () => {
+  let search = document.getElementById("search-in")
+  if (!Object.keys(meanings).includes(search.value.toLowerCase()) {
+    return
+  } else {
+    let realButton
+    for (let button of div.children) {
+      if (button.innerText == search.value.toLowerCase()) {
+        realButton = button
+        break
+      }
+    }
+    realButton.click()
+  }
+})
