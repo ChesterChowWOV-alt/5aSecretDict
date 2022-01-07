@@ -23,6 +23,8 @@ meanings = {
   "twentify": ["why", "twentify -> twenty-five -> (twenty-fifth alphabet) -> y -> why"],
   "atha": ["other", "basically engwish"],
   "enki": ["angry", "basically engwish"],
+  "chekuh": ["check", null],
+  "las": ["peace", "Las Vegas -> Veguh -> peas -> peace"],
 }
 
 div = document.getElementById("main")
