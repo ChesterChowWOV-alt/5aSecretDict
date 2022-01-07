@@ -50,10 +50,10 @@ for (let elem of div.children) {
   })
 }
 // console.log(div.innerHTML)
-/*
+
 document.getElementById("search").addEventListener("click", () => {
   let search = document.getElementById("search-in")
-  if (!Object.keys(meanings).includes(search.value.toLowerCase()) {
+  if (!Object.keys(meanings).includes(search.value.toLowerCase())) {
     return
   } else {
     let realButton
@@ -66,4 +66,3 @@ document.getElementById("search").addEventListener("click", () => {
     realButton.click()
   }
 })
-*/
