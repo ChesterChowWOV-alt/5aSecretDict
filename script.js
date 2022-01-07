@@ -25,7 +25,7 @@ meanings = {
   "enki": ["angry", "basically engwish"],
   "chekuh": ["check", null],
   "las": ["peace", "Las Vegas -> Veguh -> peas -> peace"],
-  "zethre", ["see", "zethre -> zero three -> (third alphabet) -> c -> see"],
+  "zethre": ["see", "zethre -> zero three -> (third alphabet) -> c -> see"],
 }
 
 div = document.getElementById("main")
