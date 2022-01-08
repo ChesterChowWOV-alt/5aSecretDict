@@ -57,12 +57,12 @@ document.getElementById("search").addEventListener("click", () => {
   let search = document.getElementById("search-in")
   let searchValue = search.value.toLowerCase().replace(" ", "")
   console.log("searchValue: %s", searchValue)
-  if (!Object.keys(meanings).includes(searchValue)) {
-    return
-  } else if (searchValue.includes("gay")) {
-    console.debug("gay triggered")
+  if (searchValue == "gay") {
     document.style.background = "red"
     window.alert("u are gay")
+    return
+  } else if (!Object.keys(meanings).includes(searchValue)) {
+    return
   } else {
     let realButton
     for (let button of div.children) {
