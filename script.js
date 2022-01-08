@@ -54,15 +54,16 @@ for (let elem of div.children) {
 
 document.getElementById("search").addEventListener("click", () => {
   let search = document.getElementById("search-in")
-  if (!Object.keys(meanings).includes(search.value.toLowerCase().replace(" ", ""))) {
+  let searchValue = search.value.toLowerCase().replace(" ", "")
+  if (!Object.keys(meanings).includes(searchValue)) {
     return
-  } else if (search.value.toLowerCase().replace(" ", "") === "gay") {
+  } else if (searchValue == "gay") {
     document.style.background = "red"
     window.alert("u are gay")
   } else {
     let realButton
     for (let button of div.children) {
-      if (button.innerText == search.value.toLowerCase().replace(" ", "")) {
+      if (button.innerText == searchValue) {
         realButton = button
         break
       }
