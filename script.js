@@ -58,7 +58,7 @@ document.getElementById("search").addEventListener("click", () => {
   let searchValue = search.value.toLowerCase().replace(" ", "")
   console.log("searchValue: %s", searchValue)
   if (searchValue == "gay") {
-    document.style.background = "red"
+    document.body.style.background = "red"
     window.alert("u are gay")
     return
   } else if (!Object.keys(meanings).includes(searchValue)) {
