@@ -59,7 +59,7 @@ document.getElementById("search").addEventListener("click", () => {
   console.log("searchValue: %s", searchValue)
   if (!Object.keys(meanings).includes(searchValue)) {
     return
-  } else if (searchValue == "gay") {
+  } else if (searchValue.includes("gay")) {
     console.debug("gay triggered")
     document.style.background = "red"
     window.alert("u are gay")
