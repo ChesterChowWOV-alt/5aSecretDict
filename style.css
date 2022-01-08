@@ -1,12 +1,12 @@
 :root {
   --blurple: #5865F2;
-  --lime: #57F287;
+  --bg: #d48d24;
 }
 
 body {
   font-family: Avenir;
   padding-left: 10px;
-  background: var(--lime);
+  background: var(--bg);
 }
 
 #contents {
