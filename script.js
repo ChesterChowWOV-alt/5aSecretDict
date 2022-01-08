@@ -53,9 +53,10 @@ for (let elem of div.children) {
 // console.log(div.innerHTML)
 
 document.getElementById("search").addEventListener("click", () => {
+  console.debug("search event triggered")
   let search = document.getElementById("search-in")
   let searchValue = search.value.toLowerCase().replace(" ", "")
-  console.debug("searchValue: %s", searchValue)
+  console.log("searchValue: %s", searchValue)
   if (!Object.keys(meanings).includes(searchValue)) {
     return
   } else if (searchValue == "gay") {
