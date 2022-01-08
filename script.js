@@ -56,6 +56,9 @@ document.getElementById("search").addEventListener("click", () => {
   let search = document.getElementById("search-in")
   if (!Object.keys(meanings).includes(search.value.toLowerCase().replace(" ", ""))) {
     return
+  } else if () {
+    document.style.background = "red"
+    window.alert("u are gay")
   } else {
     let realButton
     for (let button of div.children) {
