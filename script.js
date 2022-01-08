@@ -33,7 +33,7 @@ div = document.getElementById("main")
 let i = 0
 
 for (key in meanings) {
-  div.innerHTML += `<button style="font-size: large; background: blue; color: white;" id="${i}">${key}</button>`
+  div.innerHTML += `<button style="font-size: large; background: blue; color: white; border: 1px black; border-radius: 10px;" id="${i}">${key}</button>`
   // console.debug(div.innerHTML)
   // let self = document.getElementById(String(i))
   i++
