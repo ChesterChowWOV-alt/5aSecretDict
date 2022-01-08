@@ -13,6 +13,10 @@ body {
   font-size: 25px;
 }
 
+button {
+  padding: 2px;
+}
+
 fieldset {
   border-radius: 10px;
   width: 90%;
