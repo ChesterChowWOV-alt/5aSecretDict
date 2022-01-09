@@ -26,6 +26,7 @@ meanings = {
   "chekuh": ["check", null],
   "las": ["peace", "Las Vegas -> Veguh -> peas -> peace"],
   "zethre": ["see", "zethre -> zero three -> (third alphabet) -> c -> see"],
+  "tweeuh": ["I know", null],
 }
 
 div = document.getElementById("main")
