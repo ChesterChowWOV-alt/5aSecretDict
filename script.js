@@ -81,8 +81,10 @@ document.getElementById("search").addEventListener("click", () => {
 document.body.style.display = "none"
 let l = document.createElement("input")
 l.id = "login"
+l.style.display = "block"
 let b = document.createElement("button")
 b.id = "login-btn"
+b.style.display = "block"
 b.addEventListener("click", () => {
   if (document.getElementById("login").value.toLowerCase == "hnpok") {
     document.body.style.display = "block"
