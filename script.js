@@ -89,7 +89,7 @@ b.addEventListener("click", () => {
     main()
     b.style.display = "none"
     l.style.display = "none"
-  else {
+  } else {
     window.close()
   }
 })
