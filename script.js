@@ -78,7 +78,8 @@ document.getElementById("search").addEventListener("click", () => {
 })
 }
 
-// document.body.style.display = "none"
+/*
+document.body.style.display = "none"
 document.body.innerHTML = "<input id=login><button id=login-btn>Login</button>"
 let l = document.getElementById("login")
 l.style.display = "block"
@@ -94,3 +95,5 @@ b.addEventListener("click", () => {
     window.close()
   }
 })
+*/
+main()
