@@ -78,7 +78,7 @@ document.getElementById("search").addEventListener("click", () => {
 })
 }
 
-document.body.style.display = "none"
+// document.body.style.display = "none"
 let l = document.createElement("input")
 l.id = "login"
 l.style.display = "block"
