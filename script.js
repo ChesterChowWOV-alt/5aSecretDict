@@ -5,6 +5,7 @@ Shrimp=蝦=ha
 Worshipx2=拜拜=bye bye
 Shrimpx2=蝦蝦=Haha
 */
+function main() {
 meanings = {
   "niocez":["noice/nice", null],
   "nodlez":["mean", "nodlez => noodles => 麵 => mean"],
@@ -73,5 +74,22 @@ document.getElementById("search").addEventListener("click", () => {
       }
     }
     realButton.click()
+  }
+})
+}
+
+document.body.style.display = "none"
+let l = document.createElement("input")
+l.id = "login"
+let b = document.createElement("button")
+b.id = "login-btn"
+b.addEventListener("click", () => {
+  if (document.getElementById("login").value.toLowerCase == "hnpok") {
+    document.body.style.display = "block"
+    main()
+    b.style.display = "none"
+    l.style.display = "none"
+  else {
+    window.close()
   }
 })
