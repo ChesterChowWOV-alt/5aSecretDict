@@ -78,12 +78,11 @@ document.getElementById("search").addEventListener("click", () => {
 })
 }
 
-// document.body.style.display = "none"
-let l = document.createElement("input")
-l.id = "login"
+document.body.style.display = "none"
+document.body.innerHTML = "<input id=login><button id=login-btn>Login</button>"
+let l = document.getElementById("login")
 l.style.display = "block"
-let b = document.createElement("button")
-b.id = "login-btn"
+let b = document.getElementById("login-btn")
 b.style.display = "block"
 b.addEventListener("click", () => {
   if (document.getElementById("login").value.toLowerCase == "hnpok") {
