@@ -78,22 +78,22 @@ document.getElementById("search").addEventListener("click", () => {
 })
 }
 
-/*
-document.body.style.display = "none"
-document.body.innerHTML = "<input id=login><button id=login-btn>Login</button>"
+
+document.body.style.visibility = "hidden"
+document.body.innerHTML += "<input id=login><button id=login-btn>Login</button>"
 let l = document.getElementById("login")
-l.style.display = "block"
+l.style.visibility = "visible"
 let b = document.getElementById("login-btn")
-b.style.display = "block"
+b.style.visibility = "visible"
 b.addEventListener("click", () => {
-  if (document.getElementById("login").value.toLowerCase == "hnpok") {
-    document.body.style.display = "block"
+  let val = document.getElementById("login").value
+  if (val.toLowerCase() == "hnpok") {
+    // console.debug("SUSSY BAKA YOU GUESSED THE PASSWORD")
+    b.style.visibility = "hidden"
+    l.style.visibility = "hidden"
+    document.body.style.visibility = "visible"
     main()
-    b.style.display = "none"
-    l.style.display = "none"
   } else {
-    window.close()
+    window.alert("You entered the wrong password. Try again.")
   }
 })
-*/
-main()
