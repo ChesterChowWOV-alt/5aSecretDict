@@ -80,7 +80,7 @@ document.getElementById("search").addEventListener("click", () => {
 
 
 document.body.style.visibility = "hidden"
-document.body.innerHTML += "<input id=login><button id=login-btn>Login</button>"
+document.body.innerHTML += "<div style=\"width: 99%; margin: 0 auto;\"><input id=login><button id=login-btn>Login</button></div>"
 let l = document.getElementById("login")
 l.style.visibility = "visible"
 let b = document.getElementById("login-btn")
