@@ -87,6 +87,7 @@ let b = document.getElementById("login-btn")
 b.style.visibility = "visible"
 let w = document.getElementById("welcome")
 w.style.visibility = "visible"
+w.style.transform = "translateY(-50%)"
 b.addEventListener("click", () => {
   let val = document.getElementById("login").value
   if (val.toLowerCase() == "hnpok") {
