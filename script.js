@@ -80,20 +80,21 @@ document.getElementById("search").addEventListener("click", () => {
 
 
 document.body.style.visibility = "hidden"
+// document.body.innerHTML += "<div id="welcome"><h2>Welcome to the KODUH dictionary!</h2>Please enter the password to access the website.</div><div style=\"display: flex; align-items: center; justify-content: center;\"><input id=login><button id=login-btn>Login</button></div>"
 document.body.innerHTML += "<div id="welcome"><h2>Welcome to the KODUH dictionary!</h2>Please enter the password to access the website.</div><div style=\"display: flex; align-items: center; justify-content: center;\"><input id=login><button id=login-btn>Login</button></div>"
 let l = document.getElementById("login")
 l.style.visibility = "visible"
 let b = document.getElementById("login-btn")
 b.style.visibility = "visible"
-let w = document.getElementById("welcome")
-w.style.visibility = "visible"
+// let w = document.getElementById("welcome")
+// w.style.visibility = "visible"
 b.addEventListener("click", () => {
   let val = document.getElementById("login").value
   if (val.toLowerCase() == "hnpok") {
     // console.debug("SUSSY BAKA YOU GUESSED THE PASSWORD")
     b.style.visibility = "hidden"
     l.style.visibility = "hidden"
-    w.style.visibility = "hidden"
+    // w.style.visibility = "hidden"
     document.body.style.visibility = "visible"
     main()
   } else {
