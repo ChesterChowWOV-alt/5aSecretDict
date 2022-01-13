@@ -80,7 +80,7 @@ document.getElementById("search").addEventListener("click", () => {
 
 
 document.body.style.visibility = "hidden"
-document.body.innerHTML += "<div style=\"display: flex; align-items: center; justify-content: center;\"><input id=login><button id=login-btn>Login</button></div>"
+document.body.innerHTML += "<h2>Welcome to the KODUH dictionary!</h2>Please enter the password to access the website.<div style=\"display: flex; align-items: center; justify-content: center;\"><input id=login><button id=login-btn>Login</button></div>"
 let l = document.getElementById("login")
 l.style.visibility = "visible"
 let b = document.getElementById("login-btn")
