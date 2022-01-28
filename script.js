@@ -1,6 +1,6 @@
 /*
 Worship = 拜=bye
-Crab=蟹=hi
+Crab=蟹=hiaaaaa
 Shrimp=蝦=ha
 Worshipx2=拜拜=bye bye
 Shrimpx2=蝦蝦=Haha
